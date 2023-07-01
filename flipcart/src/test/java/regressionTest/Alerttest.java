@@ -20,6 +20,7 @@ public class Alerttest {
 		String alertMessage= a.getText();
 		System.out.println(a.getText());
 		a.accept();
+		System.out.println("Sucessful");
 		
 	
 
