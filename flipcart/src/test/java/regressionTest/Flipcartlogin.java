@@ -30,6 +30,7 @@ try
 		d.sendKeys(Keys.ENTER);
 		driver.findElement(By.xpath("//span[text()='Chikankari Kurti for Women']")).click();
 		driver.findElement(By.id("add-to-cart-button")).click();
+		System.out.println("added to cart sucessfully");
 		test.log(Status.PASS, "Login test case passed");
 	}
 	catch(Exception e)
